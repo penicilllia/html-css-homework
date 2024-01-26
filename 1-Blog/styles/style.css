@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-nav {
+header {
     margin: 80px 0 79px 0;
 }
 
@@ -33,7 +33,7 @@ input[type="search"] {
     border: 0 none;
 }
 
-.titleAndDate {
+.sectionTitle {
     color: #A9ADB3;
     font-size: 14px;
     font-weight: 400;
