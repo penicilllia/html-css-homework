@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(243deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(243deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0.00) 82.03%), #F39494;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: #FFFEFE;
+    width: 573px;
+    height: 582px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin: 72px 0 0 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    margin: 0 0 47px 0;
+}
+
+p > a {
+    color: #089FE0;
+}
+
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-style: italic;
+    border-radius: 5px;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+input, textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 0;
+}
+
+#company, #last_name, #email {
+    margin: 0 0 22px 0;
+}
+
+#first_name {
+    margin: 0;
+}
+
+button {
+    background-color: #089FE0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 102px;
+    margin: 0 0 22px 0;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+label > a {
+    text-decoration: none;
+    color: #089FE0;
+}
