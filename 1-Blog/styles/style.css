@@ -6,13 +6,20 @@ body {
 }
 
 header {
-    margin: 80px 0 79px 0;
+    margin: 80px 0 79px;
+    padding: 0 180px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 50px;
 }
 
 nav a {
@@ -26,10 +33,12 @@ nav a {
 input[type="search"] {
     background-color: #283241;
     color: #FFF;
+    font-size: 16px;
     height: 40px;
+    max-width: 224px;
     border-radius: 100px;
     background: rgba(31, 41, 55, 0.60);
-    padding: 9px 128px 12px 49px;
+    padding: 9px 0 12px 49px;
     border: 0 none;
 }
 
@@ -46,6 +55,13 @@ h1 {
     font-weight: 400;
     margin: 0 0 30px 0;
 
+}
+
+.authotsInfo {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: left;
 }
 
 .authorsName {
@@ -69,22 +85,32 @@ h1 {
     margin: 0 0 69px 0;
 }
 
-.heroParagraph {
+article {
+    text-align: center;
+}
+
+.articleText {
+    text-align: left;
+    max-width: 708px;
+    margin-left: calc((100% - 1440px) / 2 + 367px);
+}
+
+.articleText > .heroParagraph {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
     margin: 0;
 }
 
-article > p {
+.articleText > p {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    margin: 0;
+    margin: 2em 0;
 }
 
-article > p > a {
+.articleText > p > a {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -97,4 +123,5 @@ footer {
     font-weight: 400;
     line-height: 28px;
     margin: 103px 0 77px;
+    text-align: center;
 }
