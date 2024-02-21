@@ -3,7 +3,7 @@
 }
 
 body, html {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(243deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(243deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0.00) 82.03%), #F39494;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,8 @@ body, html {
 }
 
 main {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,11 +24,13 @@ main {
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #FFFEFE;
-    padding-top: 72px;
+    padding: 72px 94px 91px;
 }
 
 .top {
     text-align: center;
+    padding: 0 0 47px 0;
+    margin: 0;
 }
 
 h1 {
@@ -44,7 +46,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     color: #666666;
-    padding: 0 0 47px 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -57,7 +59,6 @@ p > a {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 22px;
-    padding: 0 94px 91px;
 }
 
 input {
