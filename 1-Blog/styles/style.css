@@ -117,22 +117,26 @@ h1 {
     margin: 0;
 }
 
-.macColor {
-    margin: 0 0 69px 0;
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
-.macColor img {
+.macColor {
+    margin: 0 0 69px 0;
     max-width: 896px;
 }
 
-article {
-    text-align: center;
+.macColor img {
+    width: 100%;
 }
+
 
 .articleText {
     text-align: left;
     max-width: 708px;
-    margin-left: calc((100% - 1440px) / 2 + 367px);
 }
 
 .articleText > .heroParagraph {
