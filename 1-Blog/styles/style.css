@@ -136,14 +136,7 @@ h1 {
     max-width: 708px;
 }
 
-.articleText > .heroParagraph {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0;
-}
-
-.articleText > p {
+.articleText__paragraph {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -151,7 +144,12 @@ h1 {
     margin: 2em 0;
 }
 
-.articleText > p > a {
+.heroParagraph {
+    font-size: 20px;
+    margin: 0;
+}
+
+.articleText__paragraph > a {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
