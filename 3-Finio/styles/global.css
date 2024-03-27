@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #FFFFFF;
+    --color-secondary: #357EFE;
+    --color-primary-hover: #D4E6FF;
+    --color-secondary-hover: #256DeB;
+    --color-text: #000000;
+    --color-text-light: #4E5D7C80;
+    --color-text-description: #4E5D7C80;
+    --color-discount: #1ABC9C;
+    --color-price: #FFC736;
+    --color-line: #F1F2F5;
+    --color-line-dark: #3C95FF;
+    --color-card-text: #A7CCFF;
+    --color-footer: #1A1D25;
+    --color-text-footer: #FFFFFFB2;
+    --color-a-footer: #FFFFFF80;
+    --color-line-footer: #FFFFFF14;
+
+    --border-8: 8px;
+    --border-17: 17px;
+    --border-34: 34px;
+    --border-47: 47px;
+
+    --layout-width: 1393px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: var(--color-primary);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
